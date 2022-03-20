@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:contentPadding="2dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="3dp"
+        android:elevation="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:text="Booked Flights"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_semibold"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark"
+            android:orientation="vertical">
+
+           <TextView
+               android:textColor="@color/white"
+               android:layout_width="50dp"
+               android:layout_marginLeft="15dp"
+               android:layout_height="20dp"
+               android:text="Origin:"
+               android:fontFamily="@font/poppins_semibold"/>
+
+            <TextView
+                android:id="@+id/bookedOrigin"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Origin"
+                style="@style/TextAppearance.AppCompat.Subhead">
+
+            </TextView>
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="20dp"
+            android:text="Destination:"
+            android:fontFamily="@font/poppins_semibold"/>
+
+            <TextView
+                android:id="@+id/bookedDestination"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Destination"
+                style="@style/TextAppearance.AppCompat.Subhead"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="20dp"
+                android:text="Flight No:"
+                android:fontFamily="@font/poppins_semibold"/>
+            <TextView
+                android:id="@+id/bookedflightno"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flight No"
+                android:textColor="@color/white"
+                style="@style/TextAppearance.AppCompat.Subhead"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="130dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="20dp"
+                android:text="Passenger/s:"
+                android:fontFamily="@font/poppins_semibold"/>
+            <TextView
+                android:id="@+id/bookedpassengers"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passengers"
+                android:textColor="@color/white"
+                style="@style/TextAppearance.AppCompat.Subhead"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="20dp"
+            android:text="Carrier:"
+            android:fontFamily="@font/poppins_semibold"/>
+            <TextView
+                android:id="@+id/bookedcarrier"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrier"
+                android:textColor="@color/white"
+                style="@style/TextAppearance.AppCompat.Subhead"/>
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="20dp"
+                    android:text="Status:"
+                    android:fontFamily="@font/poppins_semibold"/>
+                <TextView
+                    android:id="@+id/bookedstatus"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="@color/white"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="130dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="20dp"
+                    android:text="Departure Date:"
+                    android:fontFamily="@font/poppins_semibold"/>
+                <TextView
+                    android:id="@+id/bookeddeparture"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Departure Date"
+                    android:textColor="@color/white"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="20dp"
+                    android:text="Arrival Date:"
+                    android:fontFamily="@font/poppins_semibold"/>
+                <TextView
+                    android:id="@+id/bookedarrival"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arrival Date"
+                    android:textColor="@color/white"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="20dp"
+                    android:text="Travel Class:"
+                    android:fontFamily="@font/poppins_semibold"/>
+                <TextView
+                    android:id="@+id/bookedtravelclass"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Travel Class"
+                    android:textColor="@color/white"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
